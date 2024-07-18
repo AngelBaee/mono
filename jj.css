@@ -1,0 +1,32 @@
+.lol{
+    margin-left: 0;
+    list-style:none;
+    counter-reset: li ;
+    width:200px;
+}
+
+.lol li{
+    position:relative;
+    margin-bottom: 1.5em;
+    border: 5px solid #CADFCF;
+    padding:0.6 em;
+    border-radius: 5px;
+    background: #fefefe;
+    color: #231F20;
+    font-family:'Trebuchet MS', 'Lucida Sans';
+    padding: 10px 60px
+}
+
+.lol li:before{
+    position:absolute;
+    top: -0.7em;
+    padding-left:0.4em;
+    padding-right:0.4em;
+    font-size:13px;
+    font-weight:bold;
+    color: #dcc24b;
+    background: #fefefe;
+    border-radius: 50%;
+    counter-increment: li;
+    content: counter(li);
+}

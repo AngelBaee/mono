@@ -1,0 +1,30 @@
+.skills ul{
+    list-style: none;
+    width:400px;
+    padding: 500px;
+    height:10px;
+    text-align:center;
+
+}
+
+ul{
+    display:inline-block;
+    text-align:center;
+}
+
+.skills li{
+    padding: 10px 60px;
+    background: linear-gradient(to left, #9a6855 0%, white, #9a6855);
+    border-bottom: 1px solid grey;
+    color:#506a6b;
+    font-size:20px;
+    box-shadow:0 5px 5px 0 rgba(0,0,0, .2);
+    margin-bottom: 5px;
+    
+}
+
+.skills li:last-child{
+    border-bottom: none;
+}
+
+

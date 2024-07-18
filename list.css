@@ -1,0 +1,32 @@
+h1{
+    color:brown;
+    padding:20px;
+    margin:20px;
+    text-align:center;
+   
+}
+
+
+ol{
+   list-style:none;
+   display:flex;
+   position:relative;
+  
+ 
+}
+
+ol a{
+    text-decoration: none;
+    color:rgb(51, 60, 110)
+}
+
+li{
+    padding:30px;
+    margin:3px;
+    margin-left:170px;
+}
+
+ol li:hover{
+    color:sienna;
+}
+

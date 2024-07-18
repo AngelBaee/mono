@@ -1,0 +1,71 @@
+
+ol{
+    width:100px;
+    height:60px;
+    margin:100px;
+    margin-left:420px;
+    list-style:none;
+    display:flex;
+    position:relative;
+   
+}
+
+ol a{
+    text-decoration:none;
+    font-size:20px;
+    text-align:center;
+}
+
+ol li{
+    color:pink;
+    width:150px;
+    height:60px;
+}
+
+ol li:hover{
+    color:#000000;
+}
+
+
+
+#search{
+    background-color:#cacaca;
+    color:#2e2e2e;
+    padding:15px;
+    margin:200px;
+    border:3px solid #424040f1;
+    border-radius:15px;
+    opacity:0.7;
+    box-shadow:3px 3px 7px #272727
+}
+
+
+body{
+    background-image: url("menu.jpg");
+    background-color:rgb(227, 205, 205);
+    background-size: cover;
+}
+
+input{
+    background-color:#cacaca ;
+    opacity:0.7;
+    border:none;
+    outline: none;
+}
+
+button{
+    background-color: #cacaca;
+    opacity:0.7;
+    margin-left: 870px;
+    border:none;
+    outline:none;
+    
+}
+
+a button:hover{
+    color:cornflowerblue;
+
+}
+
+
+
